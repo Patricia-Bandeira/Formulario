@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário - Patrícia Bandeira</h1>
+    <form method="POST" action="dados.php">
+    Nome:<input type="text" name="nome"> <br><br>
+    E-mail:<input type="email" name="email"> <br><br>
+    Celular:<input type="number" name="Celular"><br><br>
+    Senha:<input type="password" name="senha"><br><br>
+    Data de nascimento:
+    <select name="dia" id="">
+        <option value="1">DIA</option>  <option value="01">01</option>  <option value="02">02</option>
+        <option value="03">03</option>  <option value="04">04</option>  <option value="05">05</option>
+        <option value="06">06</option>  <option value="07">07</option>  <option value="08">08</option>
+        <option value="09">09</option>  <option value="10">10</option>  <option value="11">11</option>
+        <option value="12">12</option>  <option value="13">13</option>  <option value="14">14</option>
+        <option value="15">15</option>  <option value="16">16</option>  <option value="17">17</option>
+        <option value="18">18</option>  <option value="19">19</option>  <option value="20">20</option>
+        <option value="21">21</option>  <option value="22">22</option>  <option value="23">23</option>
+        <option value="24">24</option>  <option value="25">25</option>  <option value="26">26</option>
+        <option value="27">27</option>  <option value="28">28</option>  <option value="29">29</option>
+        <option value="30">30</option>  <option value="31">31</option>
+    </select>
+    <select name="mes" id="">
+        <option value="0">MÊS</option>
+        <option value="01">Janeiro</option>    <option value="02">Fevereiro</option>  <option value="03">Março</option>
+        <option value="04">Abril</option>      <option value="05">Maio</option>       <option value="06">Junho</option>
+        <option value="07">Julho</option>      <option value="08">Agosto</option>     <option value="09">Setembro</option>
+        <option value="10">Outubro</option>   <option value="11">Novembro</option>  <option value="12">Dezembro</option>
+    </select>
+    <select name="ano" id="">
+        <option value="1">ANO</option>      
+        <option value="1998">1992</option>  <option value="1999">1993</option>  <option value="2000">1994</option>
+        <option value="1998">1995</option>  <option value="1999">1996</option>  <option value="2000">1997</option>
+        <option value="1998">1998</option>  <option value="1999">1999</option>  <option value="2000">2000</option>
+        <option value="2001">2001</option>  <option value="2002">2002</option>  <option value="2003">2003</option>
+        <option value="2004">2004</option>  <option value="2004">2005</option>  <option value="2004">2006</option>
+    </select>
+    <br>
+    <br>   
+    Gênero:
+    <input type="radio" name="Masculino" value='M'/> Masculino
+    <input type="radio" name="Feminino" value='F'/> Feminino
+    <br>
+    <input type="radio" name="Não binário" value='NB'/> Não binário
+    <input type="radio" name="Transexual" value='T'/> Trans
+    <input type="radio" name="Outro" value='O'/> Outro
+    <br>
+    <br>
+    Endereço: <br>
+    CEP:        <input type="number" name="cep"> 
+    Logradouro: <input type="text" name="Logradouro">
+    Número:     <input type="number" name="numero">
+    Cidade:     <input type="text" name="cidade">
+    Estado:     <input type="text" name="estado">
+    <br>
+    <br>
+<br>
+        Aceita: 
+        <input type="checkbox" name="aceite" value="termos"/>termos
+        <input type="checkbox" name="aceite" value="recebernoticias"/>receber notícias
+<br>
+    <br>
+            <input type="submit">
+   </form> 
+</body>
+</html>
