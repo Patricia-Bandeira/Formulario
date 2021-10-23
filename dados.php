@@ -2,7 +2,8 @@
 echo "<body style='background-color:pink'>";
 echo "<center><h1>Dados cadastrados</h1></center>";
 echo "<hr>";
-echo "<h1>Nome:<h1>  ";echo $_POST['nome'];
+echo "<h1>Nome:";echo $_POST['nome'];
+echo "<br> <br>";
 echo "E-mail:  ";echo $_POST['email'];
 echo "<br> <br>";
 echo "Celular:  "; echo $_POST['Celular'];
