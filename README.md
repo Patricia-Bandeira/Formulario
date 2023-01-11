@@ -5,7 +5,7 @@
 >__*Formulário*__
 ![image](https://user-images.githubusercontent.com/92181116/138543228-fa0646cd-dd99-4993-aab8-995ef60fe7e6.png)
 #
->__*Enviado*__
+>__*Informações recebidas*__
 >
 >![image](https://user-images.githubusercontent.com/92181116/138543422-41559ef8-caf8-41d9-86af-ffa929b59cec.png)
 
